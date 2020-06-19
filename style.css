@@ -1,3 +1,65 @@
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
+}
+
+header {
+  background: linear-gradient(to right, #A988F2, #BDAEF2, #C4EAF2);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'GmarketSansBold';
+  letter-spacing: 2px;
+}
+
+div.container {
+  padding: 0 50px;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+}
+
+div.stack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px;
+
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  border-radius: 36px;
+  /* background: linear-gradient(to top right, #BDAEF2, #F19BF2); */
+
+  border-radius: 36px;
+  background: linear-gradient(145deg, #cccccc, #f3f3f3);
+  box-shadow: 26px 26px 52px #c1c1c1, 
+    -26px -26px 52px #ffffff;
+}
+
+div.stack img {
+  width: 212px;
+  height: 212px;
+  border-radius: 50%;
+}
+
+div.stack span.stack-text {
+  font-size: 42px;
+  margin-left: 45px;
+  font-family: 'GmarketSansBold';
+  text-shadow: rgba(0, 0, 0, 0.28) 0px 1px 9px;
 }
